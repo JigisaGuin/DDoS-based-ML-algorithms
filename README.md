@@ -12,4 +12,21 @@ We use the technique of majority voting to check if accuracy of the approach can
 ## Blending Approach
 We have also followed blended method where a combination of the selected models are used to create a blended dataset. We use this dataset to train and validate the models and then predict using the Random Forest Classifier model. In this blended approach, we have considered various combinations of the five models used earlier to conclude on the performance rate of the models. For different sampling of the dataset, blending approach often provides the best results by giving more than a 90% accuracy. After examining all the different sampling of the dataset, we came to the conclusions on the models performing best in each of the situation, with increasing number of features as well as the size of the dataset.
 
+
+## Link to the Colab files
+Using 100000 samples and:
+1. [10 important features to train, validate and test](https://colab.research.google.com/drive/1AfxAvOlUKOxQnJclli4vX7Oy2-KjgAsM?usp=sharing)
+2. [20 important features to train, validate and test](https://colab.research.google.com/drive/1rPmHSeyznV6a71XxZGKzpJc_3cGp_0Ga?usp=sharing)
+3. [30 important features to train, validate and test](https://colab.research.google.com/drive/1bWC09zWD8XMaI94qXvhDdP9_OVTMQFqO?usp=sharing)
+
+Using 30 important features and:
+1. [25000 samples to train, validate and test](https://colab.research.google.com/drive/1CMz3aANpAY_XV5KDKRJBBKcNsbBH4TmI?usp=sharing)
+2. [50000 samples to train, validate and test](https://colab.research.google.com/drive/1Hs0Y03Eh9_TN7qBKX-WtkDGIQjEseNEm?usp=sharing)
+3. [100000 samples to train, validate and test](https://colab.research.google.com/drive/1bWC09zWD8XMaI94qXvhDdP9_OVTMQFqO?usp=sharing)
+
 **We have also observed the performance of the models as well as the approaches on a Bi-class dataset.**
+
+We have considered 100000 samples of data and:
+1. [10 important features to train, validate and test](https://colab.research.google.com/drive/1Bd83T3u9mpcmeQAokPqQIP5NP8slSunW?usp=sharing)
+2. [20 important features to train, validate and test](https://colab.research.google.com/drive/1gpL8wRbtbdS8svAxt4IBnmrkvftnzOkM?usp=sharing)
+3. [30 important features to train, validate and test](https://colab.research.google.com/drive/1hnjO-6O1-THPBjLhlrKQK2jcutkSEnkl?usp=sharing)
