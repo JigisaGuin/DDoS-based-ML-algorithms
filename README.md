@@ -12,6 +12,8 @@ We use the technique of majority voting to check if accuracy of the approach can
 ## Blending Approach
 We have also followed blended method where a combination of the selected models are used to create a blended dataset. We use this dataset to train and validate the models and then predict using the Random Forest Classifier model. In this blended approach, we have considered various combinations of the five models used earlier to conclude on the performance rate of the models. For different sampling of the dataset, blending approach often provides the best results by giving more than a 90% accuracy. After examining all the different sampling of the dataset, we came to the conclusions on the models performing best in each of the situation, with increasing number of features as well as the size of the dataset.
 
+![image](https://user-images.githubusercontent.com/91079127/174090960-1dd30f7c-3915-4e67-8ea4-b1c72ea65a7c.png)
+
 
 ## Link to the Colab files
 Using 100000 samples and:
